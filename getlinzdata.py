@@ -35,13 +35,13 @@ def linz_wfs_to_fgdb(datadir, aspatial, spatial, APIKey, bbox):
 
 if __name__ == "__main__":
 
-    # data output directory (example):
+    # data output directory:
     datadir = r"D:\Temp\Data"    
     
-    # LINZ aspatial dataset numbers (example below 3371 = road names table):
+    # LINZ aspatial dataset numbers (example 3371 = road names table):
     linz_aspatial = ['3371']
     
-    # LINZ spatial dataset numbers (example below 794 = survey plans and 1571 = NZ parcels ):
+    # LINZ spatial dataset numbers (example 794 = survey plans and 1571 = NZ parcels ):
     linz_spatial = ['794','1571']
 
     # LINZ API key:
