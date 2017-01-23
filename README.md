@@ -12,4 +12,4 @@ Download spatial and non-spatial data from LINZ to a file geodatabase
 6. Add following system environmental variables:
  * GDAL_DATA=C:\Program Files\GDAL\gdal-data
  * GDAL_DRIVER_PATH=C:\Program Files\GDAL\gdalplugins
-7. Modify parameters found in getlinzdata.py file
+7. Download getlinzdata.py and modify parameters within that file
