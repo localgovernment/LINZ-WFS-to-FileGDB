@@ -8,7 +8,7 @@ Download spatial and non-spatial data from LINZ to a file geodatabase
  * http://download.gisinternals.com/sdk/downloads/release-1800-x64-gdal-2-1-2-mapserver-7-0-2/gdal-201-1800-x64-core.msi
  * http://download.gisinternals.com/sdk/downloads/release-1800-x64-gdal-2-1-2-mapserver-7-0-2/gdal-201-1800-x64-filegdb.msi
 4. Install GDAL Core and then Plugin, typical install for both.
-5. Modify system path to include "C:\Program Files\GDAL"
+5. Modify system path to include "C:\Program Files\GDAL" (assuming C: drive here)
 6. Add following system environmental variables:
  * GDAL_DATA=C:\Program Files\GDAL\gdal-data
  * GDAL_DRIVER_PATH=C:\Program Files\GDAL\gdalplugins
